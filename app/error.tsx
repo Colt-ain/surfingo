@@ -6,7 +6,7 @@ import './error.css';
 
 export default function Error() {
 	return (
-		<div className='w-full h-full flex justify-center items-center'>
+		<div className='w-full flex justify-center items-center h-[100vh]'>
 			<span className='error-code bg-clip-text bg-linear-error-text-gradient text-gigantic absolute'>500</span>
 			<div className='z-10 align-middle text-center'>
 				<p className='text-[32px] font-semibold leading-normal mb-1'>Sorry, it&apos;s not you. It&apos;s us.</p>

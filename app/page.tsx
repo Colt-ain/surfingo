@@ -2,11 +2,10 @@ import ZemingoLogo from '@/app/ui/zemingo-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
-
-import styles from '@/app/ui/home.module.css';
 import Articles from '@/app/ui/Articles';
 import { getArticles } from '@/app/lib/actions';
-import Providers from '@/app/providers';
+
+import styles from '@/app/ui/home.module.css';
 
 export default async function Page({ children }) {
   const articles = await getArticles('en');
